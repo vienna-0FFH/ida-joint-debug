@@ -1,0 +1,15 @@
+# WSL build/runtime: preserve LF even when Git is used from PowerShell.
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.inc text eol=lf
+*.S text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.commands text eol=lf
+Makefile text eol=lf
+**/Makefile text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
